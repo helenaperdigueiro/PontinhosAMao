@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto+Mono:wght@100&display=swap');
+
+html * {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#cabecalho {
+    height: 20vh;
+    background-color: rgb(255, 230, 249);
+    background-image: url("../images/pontinhos_a_mao_2_header.png");
+    background-position: 0.5vh;
+    background-repeat: no-repeat;
+    background-size: 20vh;
+}
+
+#cabecalho h1{
+    font-size: 8vh;
+    color: rgb(255, 137, 225)
+}
+
+#cabecalho h2{
+    font-size: 3vh;
+    color: rgb(255, 137, 225)
+}
+
+#conteudo {
+    height: 100vh;
+    color: blue;
+    background-image: url("../images/pontinhos_a_mao_background.png");
+    background-size: 40vh;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 3vh;
+}
+
+#conteudo h2 {
+    color: darkblue;
+    font-size: 5vh;
+}
+
+#conteudo h3 {
+    color: darkblue;
+    font-size: 3vh;
+}
+
+#rodape {
+    height: 20vh;
+    background-color: rgb(255, 230, 249);
+    font-size: 3vh;
+    color: rgb(255, 137, 225)
+}
+
+.icones {
+    width: 50px;
+}
+
+.topicos {
+    font-size: 3vh;
+    color: rgb(255, 137, 225);
+}
