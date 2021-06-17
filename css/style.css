@@ -30,7 +30,7 @@ body {
 }
 
 #conteudo {
-    height: 100vh;
+    height: 150vh;
     color: blue;
     background-image: url("../images/pontinhos_a_mao_background.png");
     background-size: 40vh;
@@ -47,6 +47,13 @@ body {
 #conteudo h3 {
     color: darkblue;
     font-size: 3vh;
+    text-align: left;
+}
+
+#conteudo h4 {
+    color: darkblue;
+    font-size: 3vh;
+    text-align: center;
 }
 
 #rodape {
@@ -63,4 +70,8 @@ body {
 .topicos {
     font-size: 3vh;
     color: rgb(255, 137, 225);
+}
+
+.produtos {
+    width: 50vh;
 }
